@@ -1,0 +1,15 @@
+# create a dev conda environment with: `make create_env` or `conda env create -f environment.yml`
+name: synthese
+channels:
+- conda-forge
+- default
+dependencies:
+- python =3.8.5
+- numpy =1.19.1
+- matplotlib =3.3.0
+- casadi =3.5.3
+- rbdl =2.6.0.9=*casadi*
+- biorbd =1.3.5=*casadi*
+- biorbd-viz =1.3.2=*casadi*
+- scipy =1.5.2
+- packaging =20.4
